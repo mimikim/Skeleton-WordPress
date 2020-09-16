@@ -1,0 +1,16 @@
+.footer {
+  background: $dirt;
+  color: $icecream;
+  font-size: 1.4rem;
+  padding: 2rem 0;
+  text-align: center;
+
+  a {
+    color: $black;
+    font-size: 1.4rem;
+
+    &:hover {
+      color: $mint-dark;
+    }
+  }
+}

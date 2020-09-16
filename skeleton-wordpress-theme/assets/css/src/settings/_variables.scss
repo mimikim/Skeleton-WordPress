@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Source+Serif+Pro:wght@300;700&display=swap');
+
+// fonts
+$sans-serif: 'Lato', Helvetica, Arial, sans-serif;
+$serif: 'Source Serif Pro', Georgia, Times New Roman, serif;
+
+// font weights
+$font-light: 300;
+$font-bold: 700;
+
+// colors
+$mint: #e0ece4;
+$mint-dark: darken( $mint, 40% );
+$icecream: #f7f2e7;
+$sand: #d8d3cd;
+$dirt: #797a7e;
+$white: #fafafa;
+$black: #0c0c0c;
+
+// breakpoints
+$small: 768px;
+$medium: 1024px;
+$large: 1200px;
+$xlarge: 1400px;

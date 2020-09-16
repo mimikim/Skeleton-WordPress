@@ -1,0 +1,26 @@
+.header {
+  background: $mint;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+
+  @media screen and ( min-width: $small ) {
+    text-align: left;
+  }
+}
+
+.header > .container {
+  @media screen and ( min-width: $small ) {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    background: url('../images/demo-logo.jpg') 0 0/contain no-repeat;
+    border: 0;
+    display: inline-block;
+    height: 10rem;
+    width: 15rem;
+  }
+}

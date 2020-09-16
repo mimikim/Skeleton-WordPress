@@ -1,0 +1,15 @@
+ul.nav-menu {
+  font-weight: $font-bold;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media screen and ( min-width: $small ) {
+    display: flex;
+    justify-content: center;
+  }
+
+  > li {
+    padding: 1rem 1.5rem;
+  }
+}

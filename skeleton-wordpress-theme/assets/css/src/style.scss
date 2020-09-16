@@ -1,0 +1,19 @@
+// variables
+@import 'settings/variables';
+
+// global styles
+@import 'global/normalize';
+@import 'global/global';
+@import 'global/grid';
+@import 'global/utility';
+@import 'global/typography';
+
+// component specific styles
+@import 'components/header';
+@import 'components/navigation';
+@import 'components/main';
+@import 'components/sidebar';
+@import 'components/footer';
+@import 'components/widgets';
+
+// template specific styles

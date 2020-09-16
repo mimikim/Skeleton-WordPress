@@ -1,0 +1,10 @@
+a {
+  color: $mint-dark;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  font-size: 1.8rem;
+
+  &:hover {
+    color: $dirt;
+  }
+}

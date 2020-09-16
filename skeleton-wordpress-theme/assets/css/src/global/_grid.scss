@@ -1,0 +1,51 @@
+// grid related
+
+.container {
+  margin: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+
+  @media screen and ( min-width: $small ) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  @media screen and ( min-width: $medium ) {
+    display: flex;
+    flex-wrap: nowrap;
+    width: $medium;
+  }
+}
+
+// no flexbox on container
+.container.no-flex {
+  @media screen and ( min-width: $medium ) {
+    display: block;
+  }
+}
+
+  // some generic column classes
+.col-1 {
+  @media screen and ( min-width: $medium ) {
+    width: 25%;
+  }
+}
+
+.col-2 {
+  @media screen and ( min-width: $medium ) {
+    width: 50%;
+  }
+}
+
+.col-3 {
+  @media screen and ( min-width: $medium ) {
+    width: 75%;
+  }
+}
+
+.col-4 {
+  @media screen and ( min-width: $medium ) {
+    width: 100%;
+  }
+}

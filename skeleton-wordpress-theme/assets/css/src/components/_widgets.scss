@@ -1,0 +1,25 @@
+.widget.purchase-form {
+  font-size: 1.4rem;
+  text-align: center;
+
+  .thumbnail img {
+    height: auto;
+    width: 15rem;
+  }
+
+  .add-to-cart {
+    background: $sand;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    transition: all 0.2s linear;
+
+    &:hover {
+      background: $dirt;
+      color: $icecream;
+    }
+  }
+}

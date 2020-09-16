@@ -1,0 +1,1 @@
+A blank demo example of a site-specific plugin
