@@ -25,21 +25,21 @@ class Post_Type {
      */
     public function register_post_type( $data, $custom_args = [] ) {
         $labels = array(
-            'name'               => _x( $data['plural'], 'post type general name', TEXT_DOMAIN ),
-            'singular_name'      => _x( $data['singular'], 'post type singular name', TEXT_DOMAIN ),
-            'menu_name'          => _x( $data['plural'], 'admin menu', TEXT_DOMAIN ),
-            'name_admin_bar'     => _x( $data['singular'], 'add new on admin bar', TEXT_DOMAIN ),
-            'add_new'            => _x( 'Add New ' . $data['singular'], $data['slug'], TEXT_DOMAIN ),
-            'add_new_item'       => __( 'Add New ' . $data['singular'], TEXT_DOMAIN ),
-            'new_item'           => __( 'New ' . $data['singular'], TEXT_DOMAIN ),
-            'edit_item'          => __( 'Edit ' . $data['singular'], TEXT_DOMAIN ),
-            'view_item'          => __( 'View ' . $data['singular'], TEXT_DOMAIN ),
-            'all_items'          => __( 'All ' . $data['plural'], TEXT_DOMAIN ),
-            'search_items'       => __( 'Search ' . $data['plural'] . ':', TEXT_DOMAIN ),
-            'parent'             => __( 'Parent ' . $data['singular'], TEXT_DOMAIN ),
-            'parent_item_colon'  => __( 'Parent ' . $data['plural'], TEXT_DOMAIN ),
-            'not_found'          => __( 'No ' . $data['plural'] . ' found.', TEXT_DOMAIN ),
-            'not_found_in_trash' => __( 'No ' . $data['plural'] . ' found in Trash.', TEXT_DOMAIN )
+            'name'               => _x( $data['plural'], 'post type general name', SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'singular_name'      => _x( $data['singular'], 'post type singular name', SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'menu_name'          => _x( $data['plural'], 'admin menu', SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'name_admin_bar'     => _x( $data['singular'], 'add new on admin bar', SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'add_new'            => _x( 'Add New ' . $data['singular'], $data['slug'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'add_new_item'       => __( 'Add New ' . $data['singular'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'new_item'           => __( 'New ' . $data['singular'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'edit_item'          => __( 'Edit ' . $data['singular'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'view_item'          => __( 'View ' . $data['singular'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'all_items'          => __( 'All ' . $data['plural'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'search_items'       => __( 'Search ' . $data['plural'] . ':', SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'parent'             => __( 'Parent ' . $data['singular'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'parent_item_colon'  => __( 'Parent ' . $data['plural'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'not_found'          => __( 'No ' . $data['plural'] . ' found.', SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'not_found_in_trash' => __( 'No ' . $data['plural'] . ' found in Trash.', SKELETON_PLUGIN_TEXT_DOMAIN )
         );
 
         $args = array(

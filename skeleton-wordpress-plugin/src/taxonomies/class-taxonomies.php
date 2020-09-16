@@ -26,16 +26,16 @@ class Taxonomies {
      */
     public function register_taxonomy( $data, $custom_args = [] ) {
         $labels = array(
-            'name'              => _x( $data['plural'], 'taxonomy general name', TEXT_DOMAIN ),
-            'singular_name'     => _x( $data['singular'], 'taxonomy singular name', TEXT_DOMAIN ),
-            'search_items'      => __( 'Search ' . $data['plural'], TEXT_DOMAIN ),
-            'all_items'         => __( 'All ' . $data['plural'], TEXT_DOMAIN ),
-            'parent_item'       => __( 'Parent ' . $data['singular'], TEXT_DOMAIN ),
-            'parent_item_colon' => __( 'Parent ' . $data['singular'] . ':', TEXT_DOMAIN ),
-            'edit_item'         => __( 'Edit ' . $data['singular'], TEXT_DOMAIN ),
-            'update_item'       => __( 'Update ' . $data['singular'], TEXT_DOMAIN ),
-            'add_new_item'      => __( 'Add New ' . $data['singular'], TEXT_DOMAIN ),
-            'new_item_name'     => __( 'New ' . $data['singular'] .' Name', TEXT_DOMAIN ),
+            'name'              => _x( $data['plural'], 'taxonomy general name', SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'singular_name'     => _x( $data['singular'], 'taxonomy singular name', SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'search_items'      => __( 'Search ' . $data['plural'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'all_items'         => __( 'All ' . $data['plural'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'parent_item'       => __( 'Parent ' . $data['singular'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'parent_item_colon' => __( 'Parent ' . $data['singular'] . ':', SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'edit_item'         => __( 'Edit ' . $data['singular'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'update_item'       => __( 'Update ' . $data['singular'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'add_new_item'      => __( 'Add New ' . $data['singular'], SKELETON_PLUGIN_TEXT_DOMAIN ),
+            'new_item_name'     => __( 'New ' . $data['singular'] .' Name', SKELETON_PLUGIN_TEXT_DOMAIN ),
         );
 
         $args = array(
