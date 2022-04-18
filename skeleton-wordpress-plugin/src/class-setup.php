@@ -24,6 +24,7 @@ class Setup {
         new WIDGETS\Widgets();
 
         // extending a base class
+        new POST_TYPE\Post_Type();
         new POST_TYPE\Post_Type_Demo();
         new TAXONOMIES\Example_Taxonomy();
     }
